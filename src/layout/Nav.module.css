@@ -1,0 +1,52 @@
+.nav {
+  padding: 10px 100px;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0px 10px;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.nav a:hover {
+  text-shadow: 5px 5px 5px grey;
+}
+
+.home{
+  margin-right: 100px;
+}
+
+.calculation, .request{
+  width:160px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  transition: 0.5s all;
+  text-shadow: none;
+
+}
+
+.calculation:hover, .request:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+.calculation{
+  background-color: rgb(40, 40, 113);
+}
+.request{
+  margin-left:100px;
+  background-color: rgb(255, 166, 0);
+}
